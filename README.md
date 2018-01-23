@@ -203,6 +203,7 @@ import Analytics, { AnalyticsConstants } from 'react-native-analytics-segment-io
 - [Analytics.flush()](#flush-function-)
 - [Analytics.enable()](#enable-function-)
 - [Analytics.disable()](#disable-function-)
+- [Analytics.deviceToken(token)](#deviceToken-function-token)
 
 ## setup: function (key, options = {})
 *Initial framework setup*
@@ -296,6 +297,13 @@ Futher [explanation](https://segment.com/docs/sources/mobile/ios/#opt-out) can b
 Analytics.disable()
 ```
 Futher [explanation](https://segment.com/docs/sources/mobile/ios/#opt-out) can be found on Segments own page.
+
+## deviceToken: function (token)
+*Associate a device token with user*
+```js
+Analytics.deviceToken('insert fcm or apns token here')
+```
+Futher [explanation](https://segment.com/docs/sources/mobile/android/#how-should-i-use-outbound-s-push-notifications-) can be found on Segments own page.
 
 # Example
 To run the iOS example:

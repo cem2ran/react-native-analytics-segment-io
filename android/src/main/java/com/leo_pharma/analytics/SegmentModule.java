@@ -247,6 +247,11 @@ public class SegmentModule extends ReactContextBaseJavaModule {
         Analytics.with(getReactApplicationContext()).optOut(true);
     }
 
+    @ReactMethod
+    public void deviceToken(@Nullable String token) {
+        Analytics.with(getReactApplicationContext()).getAnalyticsContext().putDeviceToken(token);
+    }
+
     @Nullable
     @Override
     public Map<String, Object> getConstants() {

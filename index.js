@@ -41,6 +41,10 @@ export default {
 
   disable: function () {
     RNASegmentIO.disable()
+  },
+
+  deviceToken: function (token) {
+    RNASegmentIO.deviceToken(token)
   }
 }
 
