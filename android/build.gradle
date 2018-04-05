@@ -48,7 +48,7 @@ dependencies {
   provided 'com.segment.analytics.android.integrations:google-analytics:2.0.0'
   provided 'com.segment.analytics.android.integrations:intercom:1.1.0-beta'
   provided 'com.segment.analytics.android.integrations:localytics:1.1.0'
-  provided 'com.segment.analytics.android.integrations:mixpanel:1.1.0'
+  provided 'com.github.cem2ran:analytics-android-integration-mixpanel:9e704766fcc18192351c504ba2253d5e1675e372'
   provided 'com.segment.analytics.android.integrations:nielsendcr:1.0.0-Beta'
   provided 'com.segment.analytics.android.integrations:quantcast:1.0.1'
   provided 'com.segment.analytics.android.integrations:tapstream:1.0.0'
